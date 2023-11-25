@@ -16,9 +16,9 @@ class _FaustoState extends State<Fausto> {
   }
 
   _navigatehome() async {
-    await Future.delayed(Duration(milliseconds: 2150), () {});
+    await Future.delayed(const Duration(milliseconds: 2150), () {});
     Navigator.pushReplacement(
-        context, MaterialPageRoute(builder: (context) => Home()));
+        context, MaterialPageRoute(builder: (context) => const Home()));
   }
 
   @override

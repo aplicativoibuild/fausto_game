@@ -2,6 +2,8 @@ import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 
 class Frutas extends StatefulWidget {
+  const Frutas({super.key});
+
   @override
   _FrutasState createState() => _FrutasState();
 }

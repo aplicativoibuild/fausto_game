@@ -2,6 +2,8 @@ import 'package:fausto/utils/cores.dart';
 import 'package:flutter/material.dart';
 
 class Desenho extends StatefulWidget {
+  const Desenho({super.key});
+
   @override
   _DesenhoState createState() => _DesenhoState();
 }

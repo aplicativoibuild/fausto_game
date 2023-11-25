@@ -2,6 +2,8 @@ import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 
 class DiasDaSemana extends StatefulWidget {
+  const DiasDaSemana({super.key});
+
   @override
   _DiasDaSemanaState createState() => _DiasDaSemanaState();
 }

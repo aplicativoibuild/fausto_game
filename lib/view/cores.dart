@@ -2,6 +2,8 @@ import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 
 class Cores extends StatefulWidget {
+  const Cores({super.key});
+
   @override
   _CoresState createState() => _CoresState();
 }
@@ -33,7 +35,7 @@ class _CoresState extends State<Cores> {
                 border: Border.all(width: 5, color: Colors.red),
                 borderRadius: BorderRadius.circular(20),
               ),
-              child: Center(
+              child: const Center(
                 child: Text(
                   'Vermelha',
                   style: TextStyle(
@@ -55,7 +57,7 @@ class _CoresState extends State<Cores> {
                 border: Border.all(width: 5, color: Colors.blue),
                 borderRadius: BorderRadius.circular(20),
               ),
-              child: Center(
+              child: const Center(
                 child: Text(
                   'Azul',
                   style: TextStyle(
@@ -77,7 +79,7 @@ class _CoresState extends State<Cores> {
                 border: Border.all(width: 5, color: Colors.yellow),
                 borderRadius: BorderRadius.circular(20),
               ),
-              child: Center(
+              child: const Center(
                 child: Text(
                   'Amarela',
                   style: TextStyle(
@@ -99,7 +101,7 @@ class _CoresState extends State<Cores> {
                 border: Border.all(width: 5, color: Colors.green),
                 borderRadius: BorderRadius.circular(20),
               ),
-              child: Center(
+              child: const Center(
                 child: Text(
                   'Verde',
                   style: TextStyle(
@@ -121,7 +123,7 @@ class _CoresState extends State<Cores> {
                 border: Border.all(width: 5, color: Colors.pink),
                 borderRadius: BorderRadius.circular(20),
               ),
-              child: Center(
+              child: const Center(
                 child: Text(
                   'Rosa',
                   style: TextStyle(
@@ -143,7 +145,7 @@ class _CoresState extends State<Cores> {
                 border: Border.all(width: 5, color: Colors.grey),
                 borderRadius: BorderRadius.circular(20),
               ),
-              child: Center(
+              child: const Center(
                 child: Text(
                   'Cinzenta',
                   style: TextStyle(
@@ -165,7 +167,7 @@ class _CoresState extends State<Cores> {
                 border: Border.all(width: 5, color: Colors.orange),
                 borderRadius: BorderRadius.circular(20),
               ),
-              child: Center(
+              child: const Center(
                 child: Text(
                   'Laranja',
                   style: TextStyle(
@@ -187,7 +189,7 @@ class _CoresState extends State<Cores> {
                 border: Border.all(width: 5, color: Colors.brown),
                 borderRadius: BorderRadius.circular(20),
               ),
-              child: Center(
+              child: const Center(
                 child: Text(
                   'Castanha',
                   style: TextStyle(
@@ -209,7 +211,7 @@ class _CoresState extends State<Cores> {
                 border: Border.all(width: 5, color: Colors.black),
                 borderRadius: BorderRadius.circular(20),
               ),
-              child: Center(
+              child: const Center(
                 child: Text(
                   'Preta',
                   style: TextStyle(
@@ -231,7 +233,7 @@ class _CoresState extends State<Cores> {
                 border: Border.all(width: 5, color: Colors.purple),
                 borderRadius: BorderRadius.circular(20),
               ),
-              child: Center(
+              child: const Center(
                 child: Text(
                   'Lilás',
                   style: TextStyle(
@@ -253,7 +255,7 @@ class _CoresState extends State<Cores> {
                 border: Border.all(width: 5, color: Colors.black),
                 borderRadius: BorderRadius.circular(20),
               ),
-              child: Center(
+              child: const Center(
                 child: Text(
                   'Branca',
                   style: TextStyle(

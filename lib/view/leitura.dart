@@ -5,6 +5,8 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 
 class Leitura extends StatefulWidget {
+  const Leitura({super.key});
+
   @override
   _LeituraState createState() => _LeituraState();
 }
@@ -69,7 +71,7 @@ class _LeituraState extends State<Leitura> {
                                       flutterTts.stop();
                                       leituraBloc.add(LeituraInitialEvent());
                                     },
-                                    icon: Icon(Icons.next_plan, size: 40,),
+                                    icon: const Icon(Icons.next_plan, size: 40,),
                                   ),
                                 ],
                               ),

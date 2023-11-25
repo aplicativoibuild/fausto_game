@@ -2,6 +2,8 @@ import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 
 class Animais extends StatefulWidget {
+  const Animais({super.key});
+
   @override
   _AnimaisState createState() => _AnimaisState();
 }

@@ -2,6 +2,8 @@ import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 
 class Numeros extends StatefulWidget {
+  const Numeros({super.key});
+
   @override
   _NumerosState createState() => _NumerosState();
 }

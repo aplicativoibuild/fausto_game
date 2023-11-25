@@ -2,6 +2,8 @@ import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 
 class Alfabeto extends StatefulWidget {
+  const Alfabeto({super.key});
+
   @override
   _AlfabetoState createState() => _AlfabetoState();
 }
