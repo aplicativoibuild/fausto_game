@@ -19,7 +19,7 @@ class LeituraLoadedState extends LeituraState {
   @override
   final List<LeituraModel> livros;
   final LeituraModel livro;
-  LeituraLoadedState(this.livro, {required this.livros}): super(livros: livros);
+  const LeituraLoadedState(this.livro, {required this.livros}): super(livros: livros);
 }
 
 class LeituraErroState extends LeituraState {

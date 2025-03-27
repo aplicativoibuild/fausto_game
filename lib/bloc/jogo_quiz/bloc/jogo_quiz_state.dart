@@ -19,7 +19,7 @@ class JogoQuizLoadedState extends JogoQuizState {
   @override
   final List<JogoQuizModel> jogos;
   final JogoQuizModel jogo;
-  JogoQuizLoadedState(this.jogo, {required this.jogos}): super(jogos: jogos);
+  const JogoQuizLoadedState(this.jogo, {required this.jogos}): super(jogos: jogos);
 }
 
 class JogoQuizErroState extends JogoQuizState {
