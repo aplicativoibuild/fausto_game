@@ -3,7 +3,7 @@ part of 'jogo_quiz_bloc.dart';
 @immutable 
 abstract class JogoQuizState {
   final List<JogoQuizModel> jogos;
-  JogoQuizState({required this.jogos});
+  const JogoQuizState({required this.jogos});
 }
 
 class JogoQuizInitialState extends JogoQuizState {
@@ -16,6 +16,7 @@ class JogoQuizLoadingState extends JogoQuizState {
 }
 
 class JogoQuizLoadedState extends JogoQuizState {
+  @override
   final List<JogoQuizModel> jogos;
   final JogoQuizModel jogo;
   JogoQuizLoadedState(this.jogo, {required this.jogos}): super(jogos: jogos);
